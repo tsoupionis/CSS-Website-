@@ -1,13 +1,16 @@
 body {
     margin: 0; /* All 4 sides set to zero */
+    text-align: center;
 }
 
 h1 {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 #top-container {
     background-color: #39B5E0;
+    position: relative;
+    padding-top: 100px;
 }
 
 #middle-container {
@@ -24,4 +27,16 @@ h1 {
 
 .pro {
     text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 600px;
+    top: 50px;
 }
